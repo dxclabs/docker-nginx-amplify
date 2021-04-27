@@ -1,5 +1,5 @@
-FROM nginx:1.13
-MAINTAINER NGINX Amplify Engineering
+FROM nginx:1.19
+LABEL maintainer="NGINX Amplify Engineering"
 
 # Install the NGINX Amplify Agent
 RUN apt-get update \
