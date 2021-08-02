@@ -1,4 +1,4 @@
-FROM nginx:1.19
+FROM nginx:1.21
 LABEL maintainer="NGINX Amplify Engineering"
 
 # Install the NGINX Amplify Agent
